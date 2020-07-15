@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "cljtestmod",
+  "version": "${version}",
+
+  "name": "Clojure Test Mod",
+  "description": "This is a test mod! It's about testing!",
+  "authors": [
+    "Eutros!"
+  ],
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "eutros.cljtestmod.CljTestMod"
+    ]
+  },
+  "mixins": [
+    "cljtestmod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}

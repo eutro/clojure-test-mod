@@ -1,0 +1,28 @@
+# Clojure
+.cpcache
+
+# Gradle
+.gradle/
+build/
+
+# IntelliJ
+*.iml
+*.iws
+*.ipr
+.idea
+
+# Eclipse
+.settings/
+.project
+.classpath
+bin/
+
+# VS Code
+.vs-code/
+
+# Sublime
+*.sublime-workspace
+
+# Other
+*~
+/run/
