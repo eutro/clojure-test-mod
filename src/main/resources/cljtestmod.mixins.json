@@ -4,6 +4,7 @@
   "package": "eutros.cljtestmod.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "ClojureTestMixin"
   ],
   "client": [
   ],
