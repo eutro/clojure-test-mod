@@ -1,7 +1,11 @@
-(ns eutros.cljtestmod.CljTestMod
-  (:gen-class
-    :main false
-    :implements [net.fabricmc.api.ModInitializer]))
+(ns eutros.cljtestmod.CljTestMod)
+
+(gen-class
+ :name       eutros.cljtestmod.CljTestMod
+ :main       false
+ :implements [net.fabricmc.api.ModInitializer])
+
+(load "internal/ClojureTestMixin")
 
 (defn -onInitialize
   [this]
