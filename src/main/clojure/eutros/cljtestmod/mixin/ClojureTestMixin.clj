@@ -12,5 +12,5 @@
  :load-impl-ns false
  :methods
           [[^{Inject   {:at     (At "HEAD")
-                        :method "init()V"}
-              :private true} init [org.spongepowered.asm.mixin.injection.callback.CallbackInfo] void]])
+                        :method "init()V"}} ;; FIXME this should generate private and/or static methods
+            init [org.spongepowered.asm.mixin.injection.callback.CallbackInfo] void]])
