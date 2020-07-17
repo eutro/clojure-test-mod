@@ -1,5 +1,3 @@
-;; FIXME all the generated classes end up in the same package, which Mixin doesn't like.
-
 (ns eutros.cljtestmod.mixin.ClojureTestMixin
   (:import net.minecraft.client.gui.screen.TitleScreen
            org.spongepowered.asm.mixin.Mixin
